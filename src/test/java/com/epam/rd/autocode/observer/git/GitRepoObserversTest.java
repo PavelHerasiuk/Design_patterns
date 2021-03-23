@@ -57,7 +57,6 @@ public class GitRepoObserversTest {
                         " Commit[Johnny Silverhand, [Added cyberanarchy manifest]]]]]",
                 mergeMasterBranch.caughtEvents().toString()
         );
-
     }
 
     @Test
@@ -121,9 +120,7 @@ public class GitRepoObserversTest {
                         " Commit[Johnny Silverhand, [Added cyberanarchy manifest]]]]]",
                 mergeMasterBranch.caughtEvents().toString()
         );
-
     }
-
 
     @Test
     public void readmeCaseWithPreviousCommitsAndBackwardEmptyMerge() {
@@ -189,7 +186,6 @@ public class GitRepoObserversTest {
                         " Commit[Johnny Silverhand, [Added cyberanarchy manifest]]]]]",
                 mergeMasterBranch.caughtEvents().toString()
         );
-
     }
 
     @Test
@@ -268,6 +264,5 @@ public class GitRepoObserversTest {
                 "[Event[COMMIT, branch, [Commit[CrashOverrider, [Added full implementation]]]]]",
                 mergeReadmeWebHook.caughtEvents().toString()
         );
-
     }
 }

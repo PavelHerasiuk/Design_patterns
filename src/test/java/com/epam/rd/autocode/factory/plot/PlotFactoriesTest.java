@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class PlotFactoriesTest {
-    private PlotFactories factories = new PlotFactories();
+    private final PlotFactories factories = new PlotFactories();
 
     @Test
     public void classicDisneyPlotFactory() {

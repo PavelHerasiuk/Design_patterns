@@ -6,5 +6,4 @@ public interface Repository {
     Commit commit(String branch, String author, String[] changes);
 
     void merge(String sourceBranch, String targetBranch);
-
 }
